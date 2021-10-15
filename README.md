@@ -2,7 +2,7 @@
 
 # try_
 
-UPNP Port Forward
+try call a async function , return value same as the function, on exception print error and ignore
 
 ## use
 
@@ -21,8 +21,8 @@ Future<int> test2() async {
 
 void main() async {
   print('await sleep 3 seconds');
-  print(await try_(() => test1()));
-  print(await try_(() => test2()));
+  print(await try_(() => test1())); //null
+  print(await try_(() => test2())); //1
   print('done');
 }
 

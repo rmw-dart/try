@@ -1,5 +1,5 @@
 name: try_
-description: try call a async function , on exception print error and ignore
+description: try call a async function , return value same as the function, on exception print error and ignore
 version: 1.0.0
 homepage: https://github.com/rmw-dart/try_
 

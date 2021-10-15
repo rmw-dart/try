@@ -12,7 +12,7 @@ Future<int> test2() async {
 
 void main() async {
   print('await sleep 3 seconds');
-  print(await try_(() => test1()));
-  print(await try_(() => test2()));
+  print(await try_(() => test1())); //null
+  print(await try_(() => test2())); //1
   print('done');
 }

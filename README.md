@@ -1,13 +1,13 @@
 <!-- 本文件由 ./readme.make.md 自动生成，请不要直接修改此文件 -->
 
-# try_
+# try_catch
 
 try call a async function , return value same as the function, on exception print error and ignore
 
 ## use
 
 ```dart
-import 'package:try_/init.dart';
+import 'package:try_or_log/async.dart';
 
 Future<int> test1() async {
   await Future.delayed(Duration(seconds: 3));

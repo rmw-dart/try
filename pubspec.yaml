@@ -1,7 +1,7 @@
-name: try
+name: try_catch
 description: try call a async function , return value same as the function, on exception print error and ignore
 version: 1.0.0
-homepage: https://github.com/rmw-dart/try
+homepage: https://github.com/rmw-dart/try_catch
 
 environment:
   sdk: '>=2.14.3 <3.0.0'

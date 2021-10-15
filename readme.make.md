@@ -1,4 +1,4 @@
-# try_
+# try_catch
 
 try call a async function , return value same as the function, on exception print error and ignore
 

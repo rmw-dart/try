@@ -1,17 +1,12 @@
-name: try_
+name: try
 description: try call a async function , return value same as the function, on exception print error and ignore
 version: 1.0.0
-homepage: https://github.com/rmw-dart/try_
+homepage: https://github.com/rmw-dart/try
 
 environment:
   sdk: '>=2.14.3 <3.0.0'
-
-
-# dependencies:
-#   path: ^1.8.0
 
 dev_dependencies:
   lints: ^1.0.0
   test: ^1.16.0
 
-dependencies: 

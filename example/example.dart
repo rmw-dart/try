@@ -1,4 +1,4 @@
-import 'package:try_or_log/async.dart';
+import 'package:try_catch/async.dart';
 
 Future<int> test1() async {
   await Future.delayed(Duration(seconds: 3));

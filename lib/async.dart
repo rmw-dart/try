@@ -3,7 +3,7 @@ library try_catch;
 import 'dart:async';
 import 'dart:io';
 
-Future<T> try_catch<T>(Future<T> Function() callback) {
+Future<T> tryCatch<T>(Future<T> Function() callback) {
   var completer = Completer<T>();
   runZonedGuarded(() async {
     completer.complete(await callback());

@@ -21,8 +21,8 @@ Future<int> test2() async {
 
 void main() async {
   print('await sleep 3 seconds');
-  print(await try_catch(() => test1())); //null
-  print(await try_catch(() => test2())); //1
+  print(await tryCatch(() => test1())); //null
+  print(await tryCatch(() => test2())); //1
   print('done');
 }
 

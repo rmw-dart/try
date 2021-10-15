@@ -1,7 +1,7 @@
-import 'package:try_catch/async.dart';
+import 'package:try_catch/init.dart';
 
 Future<int> test1() async {
-  await Future.delayed(Duration(seconds: 3));
+  await Future.delayed(Duration(seconds: 1));
   throw Exception('test error');
 }
 
@@ -11,8 +11,9 @@ Future<int> test2() async {
 }
 
 void main() async {
-  print('await sleep 3 seconds');
-  print(await tryCatch(() => test1())); //null
+  print('await sleep 1 seconds');
+  var r = await tryCatch(() => test1());
+  print(r); //null
   print(await tryCatch(() => test2())); //1
   print('done');
 }
